@@ -8,7 +8,7 @@ const LandingPage = () => {
         <Logo src={img} alt="logo" />
         <BtnWrapper>
               <Link to='/login'>Login</Link>
-              <Link to='/register'>Register</Link>
+              {/* <Link to='/register'>Register</Link> */}
         </BtnWrapper>
     </Container>
   )
